@@ -1,0 +1,42 @@
+
+  body{
+    margin:0px;
+  }
+  .li-inline li {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+  }
+a {
+  color:black;
+  text-decoration: none;
+  font-size:1em;
+}
+h1 {
+  text-align: center;
+  color:rgb(228, 46, 131);
+  border-bottom:1px solid pink;
+  margin:0;
+  padding:20px;
+  background-color: pink;
+}
+h2 {
+  color:rgb(228, 46, 131);
+}
+ol{
+  border-right: 1px solid pink;
+  width: 220px;
+  margin:0;
+  padding:20px;
+  line-height: 3;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+#grid ol{
+  padding-left:33px;
+}
+#grid #article{
+  padding-left: 5px;
+}
